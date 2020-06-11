@@ -1,0 +1,2 @@
+# isManu
+isManu npm package
