@@ -4,9 +4,10 @@
   "description": "isManu function",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint *.js",
-    "lint:fix": "eslint --fix *.js"
+    "test": "jest",
+    "cest": "jest --colectCoverage",
+    "lint": "eslint *index.js",
+    "lint:fix": "eslint --fix *index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.0.1"
   }
 }
