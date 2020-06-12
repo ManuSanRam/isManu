@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "cest": "jest --colectCoverage",
+    "cest": "jest --collectCoverage",
     "lint": "eslint *index.js",
     "lint:fix": "eslint --fix *index.js"
   },
